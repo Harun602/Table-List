@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table & List</title>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>First Name</td>
+      <td><input type="text" list="asdf" name="first_name" maxlength="" id="firstName"></td>
+    </tr>
+    <tr>
+      <td>Last Name</td>
+      <td><input type="text" name="last_name" id="lastName" value="Ahsanullah University of science & Technology" readonly size="60"></td>
+    </tr>
+    <tr>
+      <td>Email Address</td>
+      <td><input type="email" name="email_address" id="emailAddress"></td>
+    </tr>
+    <tr>
+      <td>Password</td>
+      <td><input type="password" name="password" id="passWord"></td>
+    </tr>
+    <tr>
+      <td>Phone Number</td>
+      <td><input type="number" name="phone_number" id="phoneNumber"></td>
+    </tr>
+    <tr>
+      <td>Gender Info</td>
+      <td>
+        <input type="radio" checked name="gender" value="male">Male
+       <input type="radio" name="gender" value="female">Female
+       <input type="radio" name="gender" value="other">Other
+      </td>
+    </tr>
+    <tr>
+      <td>Address</td>
+      <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+    </tr>
+    <tr>
+      <td>District Name</td>
+      <td>
+        <select name="District_name" id="DistrictName">
+          <option>---Select District Name---</option>
+          <optgroup label="Dhaka Division">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Dhaka">Dohar</option>
+            <option value="Dhaka">Nobabgonj</option>
+            <option value="Dhaka">Gagipur</option>
+            <option value="Dhaka">Manikgog</option>
+            <option value="Dhaka">Narayangog</option>
+          </optgroup>
+          <optgroup label="Khulna Division">
+            <option value="Dhaka">Borishal</option>
+            <option value="Dhaka">Khulna</option>
+            <option value="Dhaka">Nohakhali</option>
+            <option value="Dhaka">jalocaty</option>
+            <option value="Dhaka">Firoj pur</option>
+          </optgroup>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td><input type="file" name="image" multiple id="image" accept="image/*"></td>
+    </tr>
+    <tr>
+      <td>Date of Birth</td>
+      <td><input type="date" name="date_of_birth" id="dateOfBirth"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="checkbox" name="agree" id="agree">I agree with all terms & condition</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="button" name="btn" id="btn" value="Save Info"></td>
+    </tr>
+  </table>
+  <datalist id="asdf">
+    <option value="Rohim Khan"/>
+    <option value="Korim"/>
+    <option value="Helana"/>
+    <option value="Salam"/>
+    <option value="Rohim Khan"/>
+  </datalist>
+
+
+</body>
+</html>
